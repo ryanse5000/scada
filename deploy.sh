@@ -1,3 +1,6 @@
+# stop on the first error so a failed build never pushes the source tree
+set -e
+
 # build
 npm run build
 
