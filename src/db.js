@@ -2,20 +2,14 @@ import firebase from "firebase/app";
 import "firebase/database";
 
 const config = {
-	// apiKey: "AIzaSyDhJqeeX8EpXljo1v5vo-Ia29aIdjTPdKs",
-	// authDomain: "firevuechat-3ac27.firebaseapp.com",
-	// projectId: "firevuechat-3ac27",
-	// storageBucket: "firevuechat-3ac27.appspot.com",
-	// messagingSenderId: "425190580286",
-	// appId: "1:425190580286:web:f7eec6ed3d44b171b4f16f"
-	apiKey: "AIzaSyCPqcSLbyE3Q8uQSUVh--YrxCOkoV1mV-Y",
-	authDomain: "real-time-app-d1a10.firebaseapp.com",
-	databaseURL: "https://real-time-app-d1a10-default-rtdb.firebaseio.com",
-	projectId: "real-time-app-d1a10",
-	storageBucket: "real-time-app-d1a10.appspot.com",
-	messagingSenderId: "496601226211",
-	appId: "1:496601226211:web:e1e3aea4ce21b873a11ed6",
-	measurementId: "G-XQ7Z6ZPYQH"
+	apiKey: "AIzaSyBye6vW1y27ekk2pAjCGCLhp2yTXdiW5AU",
+	authDomain: "scada-6eeea.firebaseapp.com",
+	databaseURL: "https://scada-6eeea-default-rtdb.asia-southeast1.firebasedatabase.app",
+	projectId: "scada-6eeea",
+	storageBucket: "scada-6eeea.firebasestorage.app",
+	messagingSenderId: "758708940083",
+	appId: "1:758708940083:web:c95a9d256741434106e246",
+	measurementId: "G-V7T4MY5R2M"
 }
 
 const db = firebase.initializeApp(config);

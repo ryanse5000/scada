@@ -20,6 +20,6 @@ git commit -m "deploy (commit: $COMMIT)"
 
 # if you are using HTTPS/2FA authentication
 # git push -f https://github.com/<USER-NAME>/<REPO>.git master:gh-pages
-git push -f https://github.com/RyanVu002/scada.git master:gh-pages
+git push -f https://github.com/ryanse5000/scada.git HEAD:gh-pages
 
 cd ..
